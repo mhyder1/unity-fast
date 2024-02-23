@@ -14,7 +14,7 @@ export default function Profile() {
         user={user}
       /> */}
       <div className="card card-details">
-        {/* <Link to={`/user/${user?.id}`} state={{ user }}> */}
+        {/* <Link to={`/user/${user?.id}`} state={{ user }}>git add */}
         <div className="card-header">{user?.name}</div>
         {/* </Link> */}
         <div className="card-body card-details-body">

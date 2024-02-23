@@ -1,0 +1,12 @@
+colors
+#99cbba   light blue
+rgba(153,203,186,255)
+
+#f2fac8   yellow
+rgba(242,250,200,255)
+
+#a8ba67  green
+rgba(168,186,103,255)
+
+#bf5458  red
+rgba(191,84,88,255)
