@@ -5,9 +5,10 @@ export default function Cards() {
     <div className="card-display">
       {data.map((user) => (
         <Card
-          tagline={user.en_name}
+          key={user.id}
           title="Long Headline with Two Lines"
           text="A short but complete sentence that takes up two lines"
+          user={user}
         />
       ))}
     </div>

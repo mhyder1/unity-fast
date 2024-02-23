@@ -5,12 +5,17 @@ import "./App.css";
 import Header from "./components/Header";
 import Stats from "./components/Stats";
 import Cards from "./components/Cards";
+import Profile from "./components/Profile";
 function App() {
   return (
     <div className="container-fluid">
       <Header />
       <Stats />
-      <Cards />
+      {/* <Cards /> */}
+      <Routes>
+        <Route path="/" element={<Cards />} />
+        <Route path="/user/:userId" element={<Profile />} />
+      </Routes>
     </div>
   );
 }
