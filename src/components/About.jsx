@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="container">
-    {/* <p>
+    <p>
        <strong>UnityFast</strong> is a dedication to the humans of Palestine, from humans across the globe. Our solidarity knows no borders and no bounds.
     </p>
     <p>
@@ -14,117 +14,7 @@ export default function About() {
     </p>
     <p>
        Ramadan is just the beginning, and fasting is the first step in our pledge of solidarity. Continue to <a className="link" href="https://imeu.org/" target="_blank">learn</a> about Palestine; advocate for justice and Palestinian liberation; <a className="link" href="https://www.birdsofgaza.com/" target="_blank">honor</a> the innocent and those still under siege, and <a className="link" href="https://www.unrwa.org/" target="_blank">donate</a> in response to the worsening humanitarian crisis in Gaza.
-    </p> */}
-
-<div class="container">
-    <div class="row custom-grid">
-      {/* <!-- Replace `items` with your array of objects --> */}
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Name</h5>
-            <p class="card-text">Age</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    </p>
  </div>
   );
 }
