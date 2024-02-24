@@ -25,7 +25,7 @@ export default function Profile() {
         text="A short but complete sentence that takes up two lines"
         user={user}
       /> */}
-      <div className="card card-details">
+      <div className="card card-profile">
         {/* <Link to={`/user/${user?.id}`} state={{ user }}>git add */}
         <div className="card-header">{user?.name}</div>
         {/* </Link> */}

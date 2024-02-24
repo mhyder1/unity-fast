@@ -53,6 +53,11 @@ body {
   margin: 10px auto;
 }
 
+.card-profile {
+  width: 90%;
+  margin: 10px auto;
+}
+
 .card-details-body {
   display: flex;
   flex-direction: column;
@@ -81,9 +86,9 @@ body {
     line-height: 4.5rem;
   }
 
-  .card-details {
-    /* width: 40%; */
-    margin: 0;
+  .card-profile {
+    width: 40%;
+    margin: 0 auto;
   }
 
   .custom-grid {
