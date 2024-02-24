@@ -5,12 +5,11 @@ export default function Profile() {
   const [daysToFast, setDaysToFast] = useState(0);
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(daysToFast === 0) return;
+    if(daysToFast === 0 || daysToFast === "How many days") return;
     alert(`You have pledged to fast ${daysToFast} days`)
   };
 
   const handleChange = (e) => {
-    console.log(e.target.value)
     setDaysToFast(e.target.value)
   }
 
