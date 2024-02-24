@@ -2,7 +2,7 @@ import Card from "./Card";
 import { data } from "../data";
 export default function Cards() {
   return (
-    <div className="card-display">
+    <div className="row custom-grid">
       {data.map((user) => (
         <Card
           key={user.id}
