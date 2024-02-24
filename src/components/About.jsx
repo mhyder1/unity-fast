@@ -13,7 +13,7 @@ export default function About() {
        You don't have to be Muslim to observe Ramadan, and you don't have to fast the entire month to reap its rewards. Fast for one, two, five, ten or any number of days, for the many who didn't live to observe this month and would have savored the opportunity.
     </p>
     <p>
-       Ramadan is just the beginning, and fasting is the first step in our pledge of solidarity. Continue to <a href="https://imeu.org/" target="_blank">learn</a> about Palestine; advocate for justice and Palestinian liberation; <a href="https://www.birdsofgaza.com/" target="_blank">honor</a> the innocent and those still under siege, and <a href="https://www.unrwa.org/" target="_blank">donate</a> in response to the worsening humanitarian crisis in Gaza.
+       Ramadan is just the beginning, and fasting is the first step in our pledge of solidarity. Continue to <a className="link" href="https://imeu.org/" target="_blank">learn</a> about Palestine; advocate for justice and Palestinian liberation; <a className="link" href="https://www.birdsofgaza.com/" target="_blank">honor</a> the innocent and those still under siege, and <a className="link" href="https://www.unrwa.org/" target="_blank">donate</a> in response to the worsening humanitarian crisis in Gaza.
     </p>
  </div>
   );

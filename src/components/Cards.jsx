@@ -6,7 +6,7 @@ export default function Cards() {
       {data.map((user) => (
         <Card
           key={user.id}
-          title="Long Headline with Two Lines"
+          title={user.en_name}
           text="A short but complete sentence that takes up two lines"
           user={user}
         />

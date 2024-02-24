@@ -63,6 +63,11 @@
   /* padding: 0 80px; */
 }
 
+.link {
+  color: #038156;
+  font-weight: 500;
+}
+
 
 /* Desktop */
 @media (min-width: 768px) { 

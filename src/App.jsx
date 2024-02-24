@@ -7,6 +7,7 @@ import Stats from "./components/Stats";
 import Cards from "./components/Cards";
 import Profile from "./components/Profile";
 import About from "./components/About";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="">
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/user/:userId" element={<Profile />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

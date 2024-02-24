@@ -1,9 +1,23 @@
 import { Link, useLocation } from "react-router-dom";
+import { useState } from "react";
 import Card from "./Card";
 export default function Profile() {
+  const [daysToFast, setDaysToFast] = useState(0);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if(daysToFast === 0) return;
+    alert(`You have pledged to fast ${daysToFast} days`)
+  };
+
+  const handleChange = (e) => {
+    console.log(e.target.value)
+    setDaysToFast(e.target.value)
+  }
+
   const {
     state: { user },
   } = useLocation();
+
   return (
     <>
       <Link to="/">Back</Link>
@@ -17,22 +31,47 @@ export default function Profile() {
         <div className="card-header">{user?.name}</div>
         {/* </Link> */}
         <div className="card-body card-details-body">
-          <h5 className="card-title">{"title"}</h5>
+          <h5 className="card-title">{user.en_name}</h5>
           <p className="card-text">dob: {user.dob}</p>
           <p className="card-text">gender: {user.sex}</p>
           <p className="card-text">age: {user.age}</p>
-          {/* <form>
-            <label for="unityfast" class="form-label">
-              How many days do you pledge to fast?
+          <hr />
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="unityfast" className="form-label">
+              Pledge to fast!
             </label>
-            <input
+            <div style={{ display: "flex" }}>
+              <select
+                className="form-select form-select-sm"
+                aria-label="Small select example"
+                id="unityfast"
+                onChange={handleChange}
+                value={daysToFast}
+              >
+                <option defaultValue={0}>How many days</option>
+                <option value={1}>1</option>
+                <option value={2}>2</option>
+                <option value={3}>3</option>
+                <option value={4}>4</option>
+                <option value={5}>5</option>
+              </select>
+              <button
+                type="submit"
+                className="btn btn-sm btn-success"
+                style={{ marginLeft: "10px" }}
+              >
+                Pledge
+              </button>
+            </div>
+
+            {/* <input
               id="unityfast"
               class="form-control form-control-sm"
               type="text"
               placeholder=".form-control-sm"
               aria-label=".form-control-sm example"
-            />
-          </form> */}
+            /> */}
+          </form>
         </div>
         <div className="card-footer">➕📅📌🏳️</div>
       </div>

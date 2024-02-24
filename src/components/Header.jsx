@@ -1,4 +1,5 @@
 import header from "../assets/header.webp";
+// import logo from "../assets/logo_small.jpg";
 import { Link } from "react-router-dom";
 export default function Header() {
   return (
@@ -14,6 +15,7 @@ export default function Header() {
       <div style={{display: "flex", justifyContent: "space-between"}}>
         <Link to="/">
           <button className="btn btn-light">Home</button>
+          {/* <img src={logo} alt="Unity Fast logo" /> */}
         </Link>
         <Link to="/about">
           <button className="btn btn-light">About</button>
