@@ -7,7 +7,6 @@ export default function Profile() {
   return (
     <>
       <Link to="/">Back</Link>
-      <h2>profile</h2>
       {/* <Card
         title="Long Headline with Two Lines"
         text="A short but complete sentence that takes up two lines"
@@ -22,6 +21,18 @@ export default function Profile() {
           <p className="card-text">dob: {user.dob}</p>
           <p className="card-text">gender: {user.sex}</p>
           <p className="card-text">age: {user.age}</p>
+          {/* <form>
+            <label for="unityfast" class="form-label">
+              How many days do you pledge to fast?
+            </label>
+            <input
+              id="unityfast"
+              class="form-control form-control-sm"
+              type="text"
+              placeholder=".form-control-sm"
+              aria-label=".form-control-sm example"
+            />
+          </form> */}
         </div>
         <div className="card-footer">➕📅📌🏳️</div>
       </div>

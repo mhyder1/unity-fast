@@ -1,4 +1,5 @@
 import header from "../assets/header.webp";
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div
@@ -10,7 +11,18 @@ export default function Header() {
         color: "white",
       }}
     >
-      <h1>Unity Fast: A 30-Day Vigil Honoring Lives Lost in Gaza</h1>
+      <div style={{display: "flex", justifyContent: "space-between"}}>
+        <Link to="/">
+          <button className="btn btn-light">Home</button>
+        </Link>
+        <Link to="/about">
+          <button className="btn btn-light">About</button>
+        </Link>
+      </div>
+
+      <h1>
+        Unity Fast: <br />A 30-Day Vigil Honoring Lives Lost in Gaza
+      </h1>
       <p>Join UnityFast - a 30 day Ramadan vigil</p>
       <p>starting March 11th</p>
     </div>

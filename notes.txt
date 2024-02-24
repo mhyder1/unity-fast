@@ -10,3 +10,20 @@ rgba(168,186,103,255)
 
 #bf5458  red
 rgba(191,84,88,255)
+
+https://odsi.co/en/
+
+font size 16px
+
+desktop
+letter-spacing 1px
+font-size: 36px;
+line-height: 47px;
+font-weight: 500;
+
+
+mobile
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -2px;
